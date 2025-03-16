@@ -38,8 +38,8 @@ If Z-score > 2.5 or Z-score < -2.5, the trade is an outlier.
 High volume outliers: Abnormally large or small trades.
 High price outliers: Sudden price spikes or drops.* Step 3: Visualization
 We use Matplotlib to create a scatter plot:
-✔ Blue Dots → Normal trades
-✔ Red Xs → Outliers
+1 Blue Dots → Normal trades
+2 Red Xs → Outliers
 
 The plot helps us visually inspect abnormal trades.
 
@@ -58,6 +58,6 @@ streamlit run app.py
 App Opens in Browser 
 
 4️ Real-World Applications
-✔ Financial Market Analysis – Detect unusual trades in stock or forex markets.
-✔ Fraud Detection – Identify suspicious trading activity.
-✔ Anomaly Detection in Business – Track abnormal transaction patterns.
+1 Financial Market Analysis – Detect unusual trades in stock or forex markets.
+2 Fraud Detection – Identify suspicious trading activity.
+3 Anomaly Detection in Business – Track abnormal transaction patterns.
